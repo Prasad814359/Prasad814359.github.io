@@ -15,31 +15,34 @@
     <!--IonIcons-->
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </head>
+<style>html{scroll-behavior: smooth;} @font-face { font-family: fontspace; src: url('Typographica-Blp5.ttf'); } 
+</style>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <!-- <a class="navbar-brand" href="#">Portfolio</a> -->
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active px-3">
-                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item px-3">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-              </li>
-            </ul>
-          </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#" style="font-family: fontspace; font-size: 25px; letter-spacing: 2px;"><b>RP</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+      <ul class="navbar-nav">
+        <li class="nav-item active px-2">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item  px-2">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item  px-2">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item  px-2">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
 
 
       <!--Home Session-->
@@ -49,7 +52,7 @@
               <div class="col-md-6 col-sm-12 col-xs-12 p-5">
                 <h1 class="text-danger display-4">&lt/&gt</h1>
                 <h1 class="display-4 text-dark">Iam Ram Prasad</h1>
-                <p class="text-muted text-dark">Native Mobile App developer | Angular developer | Machine Learning Enthusiast</p>
+                <p class="text-muted text-dark">Native Mobile App developer | Angular Webapp developer | Machine Learning Enthusiast</p>
                 <button type="button" class="btn btn-outline-dark" onclick="window.location.href='https://drive.google.com/file/d/1b4FmD9WkFN1cbWbhCaHxm1vB8oO2IZ-O/view?usp=sharing';">Download Resume</button>
               </div>
               <div class="col-md-6 col-sm-12 col-xs-12 my-4">
@@ -64,19 +67,21 @@
       <!--About Session-->
       <div class="container-fluid bg-light" id="about" style="width: 100%; height:100%;">
         <div class="container">
-          <div class="row justify-content-center pt-5 pb-4">
+          <div class="row justify-content-center pt-5 pb-1">
             <h1 class="display-4">About</h1>
           </div>
           <div class="row justify-content-center">
             <p class="lead text text-center">
-              I am an undergraduate student who belongs to a computer science background. I create, test, deploy android applications. My applications are known for their simplicity, easy to use, and reliability.
+              I am an undergraduate student who belongs to a computer science background. I create, test, deploy android applications. My applications are known for its simplicity, easy to use, and reliability.
             </p>
             <p class="blockquote pt-4" style="font-size: 25px;">My Skills</p>
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-md-3 pb-3 text-center" style="font-size: 20px;">
                   <div class="row justify-content-center">Frontend</div>
-                  <div class="row text-muted justify-content-center">HTML5</div>
+                  <div class="row text-muted justify-content-center">HTML5
+
+                  </div>
                   <div class="row text-muted justify-content-center">CSS</div>
                   <div class="row text-muted justify-content-center">XML</div>
                   <div class="row text-muted justify-content-center">Angular</div>
@@ -118,7 +123,7 @@
               <p class="card-text">The aim of the project is to irrigate plants through automation. I used Arduino as a stack and FC-28 hydrometer to measure the water content in the soil.They could be used especially in farming land to maintain the quality of crops.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <a href="https://github.com/Prasad814359/Irrigation-system" class="card-link">See more&gt&gt</a>
             </div>
           </div>
           <div class="card">
@@ -128,7 +133,7 @@
               <p class="card-text">Industrial based Android application to maintain the service date records of the equipments using QR code</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <a href="https://github.com/Prasad814359/Equipment_Report_Manager" class="card-link">See more&gt&gt</a>
             </div>
           </div>
           <div class="card">
@@ -138,7 +143,7 @@
               <p class="card-text">An android mobile application which evaluates human body through set of questionaries and providing recommendations based on siddha metrics.</p>
             </div>
             <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <a href="https://play.google.com/store/apps/details?id=com.yaathumIntellects.yaathumLife" class="card-link">See more&gt&gt</a>
             </div>
           </div>
         </div>
@@ -147,7 +152,7 @@
       
   <!--Contact Session-->
 
-  <div class="container-fluid bg-light" id="about" style="width: 100%; height:100%;">
+  <div class="container-fluid bg-light" id="contact" style="width: 100%; height:100%;">
     <div class="container">
       <div class="row justify-content-center pt-5 pb-4">
         <h1 class="display-4">Contact</h1>
